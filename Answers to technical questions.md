@@ -8,13 +8,6 @@ A demo, for heroku restaurant api call and parsing json, application using React
   I would add heroku oAuth token to the app to avoid CORS problem but that requires setting up heroku server which was not part of the requirement and heroku setup need time.
   Since I was short on time and getting the api call dodge CORS I just added a curl call on my server https://www.paksof.com/demo/jsoncallparse/herokuApi.php endpoint that returns the heroku call without CORS issues.
 
-  The app is based upon REST APIs built using Node.js and Express.
-
-Mongoose is used to connect to the database.
-The database only stores the reviews, the restaurant data is loaded in real-time by making API calls to Yelp.
-API routes have been defined to search for restaurants, get details of a particular restaurant. These APIs do not interact with the database.
-API routes for GET, POST, DELETE a review interact with the Yelp APIs as well as the database.
-.
 
 2. **What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.**
 
